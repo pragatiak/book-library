@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Poppins:500|Open+Sans');
+
+body, html {
+  background-color: rgba(0,0,0,.018);
+  color: rgba(0,0,0,.75);
+  font-family: 'Nunito';
+}
+.row,.col-12{
+  width: 100%;
+}
+.navsearch,.listbooks{
+width:80%;
+margin: 0 auto;
+}
+.col-6{
+  width:50%;
+}
+.card{
+  font-weight: bold;
+  font-size: 0.875rem;
+  background-color: #f9fafa;
+  border-left: 0.07143rem solid #eeefee;
+  border-right: 0.07143rem solid #eeefee;
+  border-bottom: 0.07143rem solid #eeefee;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.btn{
+  text-transform: uppercase;
+  background-color: #0C76BE;
+  color: #fff;
+  border: 1px solid #0C76BE;
+  padding: 4px
+}
+
+.search1{
+background: url('/resources/search_icon.png');
+background-position:center;
+background-repeat:no-repeat;
+}
+.right{
+  float: right;
+}
+.notvisible{
+  visibility: hidden;
+  display: none;
+}
+.formvisibility{
+  visibility: visible
+}
+.searchbar{
+  width: 95%;
+  position: relative;
+  display: flex;
+}
+.addform{
+  width: 95%;
+  position: relative;
+}
+.form-control{
+  width: 95%;
+  position: relative;
+  padding: 5px;
+  margin: 0px 5px 5px 5px;
+}
+.text-muted{
+  font-size: 12px;
+  color: rgba(64, 63, 63, 0.75);
+}
+.edit-btn{
+  margin-top : 10px;
+}
+.text-center{
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 480px){
+  .searchbar{
+    width: 80%;
+    position: relative;
+    display: flex;
+  }
+  .addform{
+    width: 70%;
+    position: relative;
+  }
+
+}
