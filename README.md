@@ -6,9 +6,13 @@ A classic online book library has all the features of a physical library. Online
 ## Prerequisites
 
 Node.js - The backend framework used
+
 Express.js - Node.js framework used
+
 React.js - The frontend framework used
+
 MongoDB - Database platform used
+
 Db name -> library -> collection books
 
 ## Installing packages
