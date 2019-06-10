@@ -1,7 +1,7 @@
 
 # Basic Book Library
 
-A classic online book library has all the features of a physical library. Online book library system should be user friendly and easy to understand . User should be able to perform below functionality with the system: 
+A classic online book library has all the features of a physical library. Online book library system should be user friendly and easy to understand. 
 
 ## Prerequisites
 
@@ -43,8 +43,9 @@ mongorestore -d library <path_to_directory>/library/books.bson
 
 ## Notes
 After Importing the data
-Please run the server first and get a sample output From Url :http://localhost:8000/api/books
-then proceed with frontend operations
+Please run the server first and then run the client. Commands are listed above.
+Get output From Url :http://<YOUR_LOCALHOST>:8000/api/books (API testing)
+Proceed with frontend operations
 
-Attaching screenshot for the flow.
+Screenshots attached for the flow.
 
